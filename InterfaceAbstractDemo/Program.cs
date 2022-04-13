@@ -14,8 +14,7 @@ namespace InterfaceAbstractDemo
 
             Abstact.BaseCustomerManager baseCustomerManager = new StarbucksCustomerManager(new MernisServiceAdapter());
             baseCustomerManager.Save(new Customer { DateOfBirth=new DateTime(1998,1,27 ),Name="Nusret",LastName="Yalçın",NationalityId="12345678912"});
-            
-
+           
         }
     }
 }
